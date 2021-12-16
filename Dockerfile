@@ -1,8 +1,8 @@
 FROM openjdk
 WORKDIR /app
 
-COPY program.java /app
+COPY test.java /app
 
-RUN javac program.java # Compile
+RUN javac test.java # Compile
 
-CMD java program
+CMD java test
