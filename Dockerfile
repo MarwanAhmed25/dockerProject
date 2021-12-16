@@ -5,4 +5,4 @@ COPY program.java /app
 
 RUN javac program.java # Compile
 
-CMD java test
+CMD java program
