@@ -19,4 +19,4 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: os2021/java-hello-world-from-github-actions:latest
+          tags: 4125881/java-hello-world-from-github-actions:latest
